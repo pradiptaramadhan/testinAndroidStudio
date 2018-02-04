@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pradiptaramadhan.pradiptaramadhan_1202154142_modul1.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="232dp"
+        android:layout_height="47dp"
+        android:text="Makan Malam"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dengan Milea"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nasi Uduk"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="2"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EATBUS"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABNORMAL"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+</android.support.constraint.ConstraintLayout>
